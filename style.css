@@ -66,9 +66,6 @@ button:hover {
   background-color: #F9FAF8;
   color: #3882F6;
 }
-.cta > button {
-  border: 1px solid #F9FAF8;
-}
 /* main */
 .main {
   display: flex;
@@ -101,7 +98,10 @@ button:hover {
 }
 /* testimonial */
 .testimonial {
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
   background-color: #E5E7EB;
   display: flex;
   flex-wrap: wrap;
@@ -116,4 +116,31 @@ button:hover {
   display: flex;
   flex: 1 1 20%;
   justify-content: flex-end;
+}
+/* cta */
+.cta__container {
+  display: flex;
+  background-color: #3882f6;
+  margin: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: space-around;
+}
+.cta {
+  color: #E5E7EB;
+}
+.cta__container > button {
+  border: 1px solid #F9FAF8;
+}
+/* footer */
+.footer {
+  display: flex;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
 }
