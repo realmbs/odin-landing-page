@@ -53,6 +53,7 @@
   flex: 0 1 100;
   align-self: end;
 }
+/* buttons */
 button {
   background-color: #3882F6;
   border: none;
@@ -68,6 +69,7 @@ button:hover {
 .cta > button {
   border: 1px solid #F9FAF8;
 }
+/* main */
 .main {
   display: flex;
   flex-direction: column;
