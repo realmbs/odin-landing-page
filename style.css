@@ -1,0 +1,15 @@
+.top-nav {
+  display: flex;
+}
+.top-nav__logo {
+  flex: 1 0 100;
+}
+.top-nav__links {
+  flex: auto;
+}
+.top-nav__links ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 10px;
+}
