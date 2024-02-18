@@ -83,12 +83,16 @@ button:hover {
   padding-right: 100px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between
 }
 .main__container > img {
   border-radius: 6px;
 }
-.main__container > p {
+.main__container__item > p {
   display: flex;
-  padding-top: 100px;
   justify-content: center;
 }
+.main__container__item {
+  flex-wrap: wrap;
+}
+/* testimonial */
