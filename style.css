@@ -95,4 +95,25 @@ button:hover {
 .main__container__item {
   flex-wrap: wrap;
 }
+.main__container__item > img {
+  border: 1px solid #3882f6;
+  border-radius: 6px;
+}
 /* testimonial */
+.testimonial {
+  padding: 100px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimonial > p {
+  font-weight: light;
+  font-style: italic;
+  font-size: 36px;
+  color: #1F2937
+}
+.testimonial > h3 {
+  display: flex;
+  flex: 1 1 20%;
+  justify-content: flex-end;
+}
