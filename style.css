@@ -80,17 +80,13 @@ button:hover {
   padding-right: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between
-}
-.main__container > img {
-  border-radius: 6px;
-}
-.main__container__item > p {
-  display: flex;
   justify-content: center;
 }
 .main__container__item {
   flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .main__container__item > img {
   border: 1px solid #3882f6;
